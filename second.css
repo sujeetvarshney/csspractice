@@ -1,0 +1,27 @@
+body {
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-toggler-icon {
+  font-size: 25px;
+  border: none;
+}
+.navbar-toggler-icon:hover {
+  font-size: 25px;
+  border: none;
+  border: 1px solid white;
+}
+.navbar-toggler-icon:focus {
+  font-size: 25px;
+  box-shadow: none;
+  border: none;
+}

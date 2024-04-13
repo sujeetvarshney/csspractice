@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.first {
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.second {
+  padding: 20px;
+  background-color: brown;
+  border-radius: 10px;
+  margin: 20px;
+
+  font-size: 30px;
+  background-color: ;
+}
+
+.second a {
+  color: white;
+}
+
+.third {
+  margin-left: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid red;
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+.navbar {
+  background-color: red;
+  display: flex;
+
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+}
+
+/* display: inline-block; to make it block level  */
+/* display: block; 
+  margin-top: 20px;
+  text-align: center;
+  /* margin-top, bottom will not work */
